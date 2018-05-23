@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <link rel="stylesheet" type="text/css" href="css/LogIn.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script></script>
+    <script src="javascript/LogIn.js"></script>
+    <title>CAR:NS</title>
+</head>
+<body>
+    <!-- LOGIN FORMA, POCETNA STRANA -->
+    <div>
+        <h1 id="logoHeader">CAR:NS</h1>
+
+        <div class="loginFormContainer" style='display: none;'>
+            <h2 id="pageHeader">Prijava</h2>
+            <form action="" method="" onsubmit='return ValidateForm();'>
+
+                <div class='usernameContainer'><b>Korisničko ime:</b></div>
+                <input id='login-username' name='login-username' type='text' />
+
+                <div class='passwordContainer'><b>Lozinka:</b></div>
+                <input id='login-password' name='login-sifra' type='password' />
+
+                <button id='loginButton' type='submit'>Uloguj se</button>
+                <br>
+                <div align='center'><span id='openRegistartionForm'>Registracija</span></div>
+
+            </form>
+
+        </div>
+
+        <!-- REGISTRACIJSKA FORMA -->
+        <div class="registerFormContainer">
+            <h2 id="pageHeader">Registracija</h2>
+            <form action="" method="" onsubmit='return ValidateForm();'>
+                <br>
+                <label for="korisnickoIme"><b> Korisničko ime</b></label> <br>
+                <input id='reg-username' type='text' name='reg-username'> <br>
+
+                <label for="lozinka"><b> Lozinka</b></label> <br>
+                <input id='reg-password' type='password' name='reg-password'> <br>
+
+                <label for="lozinka2"><b> Ponovi lozinku </b></label> <br>
+                <input id='reg-password2' type='password' name='reg-password2'> <br>
+
+                <label for="ime"><b> Ime</b></label> <br>
+                <input id='reg-ime' type='text' name='reg-ime'> <br>
+
+                <label for="prezime"><b> Prezime</b></label> <br>
+                <input id='reg-prezime' type='text' name='reg-prezime'> <br>
+
+                <label for="pol"><b> Pol</b></label> <br>
+                <select name="reg-pol">
+                    <option value="musko">Muško</option>
+                    <option value="zensko">Žensko</option>
+                </select> <br>
+
+                <label for="jmbg"><b> Jmbg</b></label> <br>
+                <input id='reg-jmbg' type='text' name='reg-jmbg'> <br>
+
+                <label for="telefon"><b> Kontakt telefon</b></label> <br>
+                <input id='reg-telefon' type='text' name='reg-telefon'> <br>
+
+                <label for="email"><b> e-mail</b></label> <br>
+                <input id='reg-email' type='text' name='reg-email'> <br>
+
+                <!--
+                <label for="uloga"><b> Uloga</b></label> <br>
+                <select name="uloga">
+                    <option value="musterija">Mušterija</option>
+                    <option value="vozac">Vozač</option>
+                    <option value="dispecer">Dispečer</option>
+                </select> <br>
+
+                <label for="tipVoznje"><b> Tip vožnje</b></label>
+                <input type="radio" name="tipVoznje" value="gradska"> Gradska
+                <input type="radio" name="tipVoznje" value="prigradska"> Prigradska
+                <input type="radio" name="tipVoznje" value="sve" checked> Sve !-->
+
+                <button id='reg-submit' type="submit">Registruj se</button>
+                <br><br>
+                <div align='center'><span id='openLoginForm'>Prijavite se</span></div>
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

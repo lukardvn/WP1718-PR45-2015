@@ -1,0 +1,60 @@
+﻿body {
+    background-color: #a6c7fc;
+}
+
+input[type=text], input[type=password] {
+    width: 98%;
+    padding: 8px;
+    margin: 2px 0 14px 0;
+    display: inline-block;
+    border: none;
+    background: #f2f5f9;
+}
+
+select {
+    width: 98.85%;
+    padding: 8px;
+    margin: 2px 0 14px 0;
+    display: inline-block;
+    border: none;
+    background: #f2f5f9;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+span {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+#pageHeader {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#logoHeader {
+    display: block;
+    padding: 14px 35px;
+    font-size: 27px;
+    background-color: #2772ea;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+    margin: 20px auto;
+    width: 50%;
+    font-weight: bold;
+    background: url("../imgs/logoPozadina.jpg");
+}
